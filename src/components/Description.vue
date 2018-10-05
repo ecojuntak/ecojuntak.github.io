@@ -31,8 +31,8 @@ export default {
 p {
   color: grey;
   font-size: 18px;
-  font-family: neoSansBold;
-  /* line-height: 20px; */
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 25px;
   text-overflow: unset;
   text-align: left;
 }

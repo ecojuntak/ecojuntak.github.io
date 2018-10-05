@@ -67,15 +67,10 @@ h1, h2 {
   font-weight: normal;
 }
 
-@font-face {
-    font-family: neoSansBold;
-    src: url("../assets/fonts/neo_sans_bold.ttf") format("truetype");
-}
-
 .header-text {
   color: #1e7ddd;
   margin: 30px;
-  font-family: neoSansBold;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 ul {
