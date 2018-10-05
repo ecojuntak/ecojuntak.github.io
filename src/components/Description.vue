@@ -37,13 +37,4 @@ p {
   text-align: left;
 }
 
-@font-face {
-  font-family: neoSansBold;
-  src: url(../assets/fonts/neo_sans_bold.ttf);
-}
-
-@font-face {
-  font-family: neoSansLight;
-  src: url(../assets/fonts/neo_sans_light.ttf);
-}
 </style>
