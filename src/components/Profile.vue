@@ -69,7 +69,7 @@ h1, h2 {
 
 @font-face {
     font-family: neoSansBold;
-    src: url("~@/assets/fonts/neo_sans_bold.ttf");
+    src: url("../assets/fonts/neo_sans_bold.ttf") format("truetype");
 }
 
 .header-text {
