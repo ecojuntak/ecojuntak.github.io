@@ -85,28 +85,4 @@ p {
   animation-delay: 0.5s;
   margin-left: 2px;
 }
-
-@keyframes blink-animation {
-  from {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes blink-animation {
-  from {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 </style>

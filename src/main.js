@@ -7,6 +7,13 @@ import App from './App'
 import router from './router'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+
+Vue.use(Vuetify, {
+  iconfont: 'md',
+})
+
 
 Vue.component('v-icon', Icon)
 Vue.config.productionTip = false
