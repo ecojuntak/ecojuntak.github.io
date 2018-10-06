@@ -1,7 +1,7 @@
 <template>
   <div class="leftside">
     <v-avatar :size="200" color="grey lighten-4">
-      <img src="../assets/ecojuntak.jpeg">
+      <img class="img-profile" src="../assets/ecojuntak.jpeg">
     </v-avatar>
 
     <h1 class="header-text" v-html="msg"></h1>
@@ -63,14 +63,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=K2D');
+
 h1, h2 {
   font-weight: normal;
 }
 
 .header-text {
-  color: #1e7ddd;
+  color: rgb(29,185,84);
   margin: 30px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'K2D', sans-serif;
 }
 
 ul {
@@ -83,15 +85,45 @@ li {
 }
 
 .leftside {
+  padding-top: 150px;
   width: 50%;
   padding-left: 75px;
   padding-right: 75px;
   text-align: center;
   float: left;
+  animation: slide 1.2s forwards;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .icon {
-  color: #1e7ddd;
+  color:white;
+}
+
+.icon :hover {
+  color: rgb(29,185,84);
+}
+
+.img-profile {
+  border: 5px;
+  border-color: antiquewhite;
 }
 
 </style>
