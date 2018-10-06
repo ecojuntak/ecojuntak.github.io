@@ -63,16 +63,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=K2D');
+@import url("https://fonts.googleapis.com/css?family=K2D");
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
 .header-text {
-  color: rgb(29,185,84);
+  color: rgb(29, 185, 84);
   margin: 30px;
-  font-family: 'K2D', sans-serif;
+  font-family: "K2D", sans-serif;
 }
 
 ul {
@@ -93,6 +94,22 @@ li {
   float: left;
   animation: slide 1.2s forwards;
   animation-delay: 0s;
+  min-width: inherit;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 850px) {
+  .leftside {
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: center;
+    float: left;
+    animation: slide 1.2s forwards;
+    animation-delay: 0s;
+    background-color: inherit;
+  }
 }
 
 @-webkit-keyframes slide {
@@ -114,16 +131,15 @@ li {
 }
 
 .icon {
-  color:white;
+  color: white;
 }
 
 .icon :hover {
-  color: rgb(29,185,84);
+  color: rgb(29, 185, 84);
 }
 
 .img-profile {
   border: 5px;
   border-color: antiquewhite;
 }
-
 </style>

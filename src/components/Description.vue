@@ -32,6 +32,22 @@ export default {
   float: right;
   animation: slide 1.2s forwards;
   animation-delay: 0s;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 850px) {
+  .rightside {
+    padding-top: 20px;
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: center;
+    color: white;
+    float: right;
+    animation: slide 1.2s forwards;
+    animation-delay: 0s;
+    background-color: inherit;
+  }
 }
 
 @-webkit-keyframes slide {
@@ -63,7 +79,7 @@ p {
 
 .cappy::after {
   content: "\258B";
-  color: rgb(29,185,84);
+  color: rgb(29, 185, 84);
   animation: blink-animation 1.1s infinite;
   animation-timing-function: ease;
   animation-delay: 0.5s;
@@ -71,14 +87,26 @@ p {
 }
 
 @keyframes blink-animation {
-  from { opacity: 1.0; } 
-  50% { opacity: 0.0; }
-  to { opacity: 1.0; }
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes blink-animation {
-  from { opacity: 1.0; } 
-  50% { opacity: 0.0; }
-  to { opacity: 1.0; }
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 </style>

@@ -26,7 +26,7 @@ export default {
 <style>
 .head {
   background-color: rgba(33, 33, 33, 1);
-  height:100vh;
-  padding-bottom: 150px;
+  display: flow-root;
+  padding-bottom: 100px;
 }
 </style>
