@@ -1,7 +1,7 @@
 <template>
   <div class="leftside">
     <v-avatar :size="200" color="grey lighten-4">
-      <img class="img-profile" src="../assets/ecojuntak.jpeg">
+      <img class="img-profile" src="../assets/img/ecojuntak.jpeg">
     </v-avatar>
 
     <h1 class="header-text" v-html="msg"></h1>
