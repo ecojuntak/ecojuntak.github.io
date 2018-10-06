@@ -8,13 +8,18 @@
     <div>
       <blog/>
     </div>
+
+    <div>
+      <foot/>
+    </div>
   </div>
 </template>
 
 <script>
-import Profile from "./Profile";
-import Description from "./Description";
+import Profile from "./Profile"
+import Description from "./Description"
 import Blog from "./Blog"
+import Foot from "./Footer"
 
 export default {
   name: "Home",
@@ -26,13 +31,15 @@ export default {
   components: {
     Profile,
     Description,
-    Blog
+    Blog,
+    Foot
   }
 };
 </script>
 
 <style>
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons';
+@import url("https://fonts.googleapis.com/css?family=K2D");
 
 .head {
   background-color: rgba(33, 33, 33, 1);
