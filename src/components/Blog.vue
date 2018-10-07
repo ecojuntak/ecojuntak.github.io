@@ -33,6 +33,12 @@ export default {
     return {
       blogs: [
         {
+          url: "https://medium.com/@ecojuntak/define-f360149e5071",
+          src:
+            "https://cdn-images-1.medium.com/max/800/1*Ik7pC7mBWTCrBqol3UnALQ.jpeg",
+          title: "Define"
+        },
+        {
           url: "https://medium.com/@ecojuntak/mulut-7101186f7582",
           src:
             "https://cdn-images-1.medium.com/max/800/1*pStIBK-ZOWNBXiop79a7cg.jpeg",
