@@ -21,7 +21,7 @@
         </v-container>
 
         <div class="text-xs-center">
-            <v-pagination v-model="page" :length="totalPage" :dark="true" color="rgb(29, 185, 84)" :total-visible="3" circle @input="updateBlogList"> </v-pagination>
+            <v-pagination v-model="page" :length="totalPage" :dark="true" color="rgb(29, 185, 84)" :total-visible="6" circle @input="updateBlogList"> </v-pagination>
         </div>
     </div>
 </template>
