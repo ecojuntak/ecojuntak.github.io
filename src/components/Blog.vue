@@ -33,6 +33,12 @@ export default {
     return {
       blogs: [
         {
+          url: "https://medium.com/@ecojuntak/idea-generation-6e67166205fb",
+          src:
+            "https://cdn-images-1.medium.com/max/800/1*gsr-EEXtzoJNXpapiuN_HQ.png",
+          title: "Idea Generation"
+        },
+        {
           url: "https://medium.com/@ecojuntak/define-f360149e5071",
           src:
             "https://cdn-images-1.medium.com/max/800/1*Ik7pC7mBWTCrBqol3UnALQ.jpeg",
