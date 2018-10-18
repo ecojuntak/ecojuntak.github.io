@@ -27,100 +27,13 @@
 </template>
 
 <script>
+import blogs from '../data/blog.json'
+
 export default {
   name: "Blog",
   data() {
     return {
-      blogs: [
-        {
-          url: "https://medium.com/@ecojuntak/idea-generation-6e67166205fb",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*gsr-EEXtzoJNXpapiuN_HQ.png",
-          title: "Idea Generation"
-        },
-        {
-          url: "https://medium.com/@ecojuntak/define-f360149e5071",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*Ik7pC7mBWTCrBqol3UnALQ.jpeg",
-          title: "Define"
-        },
-        {
-          url: "https://medium.com/@ecojuntak/mulut-7101186f7582",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*pStIBK-ZOWNBXiop79a7cg.jpeg",
-          title: "How about Empathize and Mouth"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/this-is-what-i-need-in-toba-samosir-ba32e71633b0",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*3kpcnasssy-nhiPYhPK6JA.jpeg",
-          title: "This is what I need in Toba Samosir"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/go-squads-tech-2-0-review-ef7781e9d77c",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*l0oQhfZURe2UxOABtCaHIg.jpeg",
-          title: "GO-SQUADS Tech 2.0 — Review"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/learning-musical-instrument-learning-programming-language-4180404646b3",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*IOH3rR1y96i5SLXWWhes6A.jpeg",
-          title: "Learning Musical Instrument ≈ Learning Programming Language"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/what-i-learn-from-go-squads-mini-bootcamp-d3c60eb95fc9",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*PNhPzJ5BWFCM4aBKZQJ3RQ.jpeg",
-          title: "What I Learn from GO-SQUADS Mini Bootcamp"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/why-i-love-to-be-a-boarding-school-student-4c3a5fe0be35",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*njMnPczvCdT8eIC6FOp-xQ.jpeg",
-          title: "Why I love to be a Boarding School Student"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/the-t-shape-that-we-should-have-789d39ca1de",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*Boa9P-SKq4hNd6rGexpiRg.png",
-          title: "The T Shape that We Should Have"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/progressive-web-app-or-native-app-android-a30e2b749e9b",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*iQqj-z4gpaAP0z1FmgGO5Q.png",
-          title: "Progressive Web App or Native App (Android)?"
-        },
-        {
-          url:
-            "https://medium.com/@ecojuntak/use-space-rather-then-tabs-41efe8ff4765",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*yS7pnk7azNa59HKsHs6VZQ.jpeg",
-          title: "Use Space Rather then Tabs"
-        },
-        {
-          url:
-            "https://medium.com/easyread/mencoba-pwa-dengan-vue-js-dan-github-api-74b5d815c3bb",
-          src:
-            "https://cdn-images-1.medium.com/max/1000/1*w9WBawyqPepjPvY2iX3E5A.png",
-          title: "Mencoba PWA dengan Vue JS dan GitHub API"
-        },
-        {
-          url:
-            "https://medium.com/easyread/competitive-programming-sebagai-pondasi-32f48de3a841",
-          src:
-            "https://cdn-images-1.medium.com/max/800/1*VaecXdsLQMkyw8DqyFYV7g.jpeg",
-          title: "Competitive Programming sebagai Pondasi"
-        },    
-      ],
+      blogs: blogs,
       page: 1,
       itemPerPage: 4,
       totalPage: 1,
